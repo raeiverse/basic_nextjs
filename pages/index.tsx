@@ -11,10 +11,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <>
-    <Layout>
+    
+    <Layout pageTitle='Home Page'>
     <h1 className={styles['title-homepage']}>Welcome Raeiverse</h1>
+    <Image src={require('/public/a.png')} width={500}height={300} alt='profile'></Image>
+    <Image src={require('/public/b.png')} width={500}height={300} alt='profile'></Image>
     </Layout>
-    </>
+    
   )
 }

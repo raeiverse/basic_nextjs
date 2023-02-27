@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Users() {
   return (
-    <Layout>
+    <Layout pageTitle='User Page'>
       <p>User page</p>
     </Layout>
   )

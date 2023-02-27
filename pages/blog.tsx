@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function blog() {
   return (
-    <Layout>
+    <Layout pageTitle='Blog Page'>
         <p className='title'>Blog Page</p>
     </Layout>
   )
